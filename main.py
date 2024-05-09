@@ -29,4 +29,4 @@ def book_report(total_words, char_count):
         if i.isalpha():
             print("The '" + str(i) + "' character was found " + str(char_count[i]) + " times.")
     print("--- End report ---")
-book_report(count_words(main()),count_characters(main()))
+
